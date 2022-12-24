@@ -1,0 +1,359 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+/* Home Start */
+
+.bg-img{
+background-image: url('../images/hero-bg.jpg');
+background-size: 100% 100%;
+min-height: 100vh;
+}
+.navbar{
+    background-color: rgba(0, 0, 0,.9);
+}
+/* .navbar-brand{
+  color: white; 
+} */
+.fs-x{
+    font-size: 4.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    color: white;
+    position: relative;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+   content: '';
+   position: absolute;
+   width: 00%;
+   height: 1px;
+   background-color: white;
+   bottom: 0;
+   left: 10%;
+   transition: .3s all;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover.nav-link::after{
+    width: 80%;
+}
+
+.home-content p::after{
+    content: '';
+    animation: typing 5s infinite alternate;
+}
+
+@keyframes typing {
+    0%{
+        content: '';
+
+    }
+    5%{
+        content: 'D|';
+
+    }
+    10%{
+        content: 'De|';
+    }
+    15%{
+        content: 'Des|';
+
+    }
+    20%{
+        content: 'Desi|';
+    }
+    25%{
+        content: 'Desig|';
+
+    }
+    30%{
+        content: 'Design|';
+    }
+    35%{
+        content: 'Designe|';
+
+    }
+    40%{
+        content: 'Designer|';
+    }
+    45%{
+        content: 'D|';
+
+    }
+    50%{
+        content: 'De|';
+    }
+    45%{
+        content: 'Dev|';
+
+    }
+    50%{
+        content: 'Devo|';
+    }
+    55%{
+        content: 'Devol|';
+
+    }
+    60%{
+        content: 'Devolo|';
+    }
+    65%{
+        content: 'Devolop|';
+
+    }
+    70%{
+        content: 'Devolope|';
+    }
+    75%{
+        content: 'Devoloper|';
+
+    }
+    80%{
+        content: 'Fr|';
+    }
+    85%{
+        content: 'Free|';
+
+    }
+    90%{
+        content: 'Freela|';
+    }
+    95%{
+        content: 'Freelanc|';
+
+    }
+    100%{
+        content: 'Freelancer|';
+    }
+
+
+
+    
+}
+/* Home End */
+/* About Start */
+.about .about-me h2{
+    position: relative;
+}
+.about .about-me h2::after{
+content: '';
+width: 15%;
+height: 3px;
+background-color: #0078FF;
+position: absolute;
+bottom: 0;
+left:0 ;
+}
+.about .about-me p{
+    max-width: 630px;
+    color: #4E4E4E;
+    font-size: 1.25rem;
+}
+.about .about-data p{
+    color: #4E4E4E;
+}
+.about .about-data p span{
+color: #1E1E1E;
+font-size: 1.1rem;
+
+}
+.about .box-shadow{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0,.2);
+}
+.about .skills-container{
+    background-color: #CDE1F8;
+    width: 100%;
+    height: .7rem;
+}
+.about .skills-value{
+    background-color: #0078FF;
+    height: 100%;
+}
+.about .one{
+width: 85%;
+}
+.about .two{
+    width: 75%;
+}
+.about .three{
+    width: 50%;
+}
+.about .four{
+    width: 90%;
+}
+.about .skills-bar span{
+color: #4E4E4E;
+}
+/* About End */
+/* Services Start */
+.services-title p{
+
+}
+.services-title p::after{
+content: '';
+position: absolute;
+background-color: #0078FF;
+bottom: 0;
+left: 50%;
+transform: translatex(-50%);
+width: 3%;
+height: 5px;
+}
+.outter-circle{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 0px 10px #0078FF ;
+    transition: 1s all;
+
+
+}
+.services .item p{
+color: #4E4E4E;
+max-width: 350px;
+}
+.services .item{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,.1);
+  
+    
+}
+.services .item:hover .outter-circle{
+    box-shadow: 0px 0px 0px 10px #CDE1F8 ;
+    background-color: #0078FF;
+    color: white;
+}
+/* Services End */
+
+/* portfolio Start */
+
+.portfolio-title p::after{
+    content: '';
+    background-color: #0078FF;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+    width: 3%;
+    height: 5px;
+
+}
+
+.portfolio .product{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,.1);
+}
+.portfolio .product .product-data span{
+    color: #0078FF;
+}
+.fs-sm{
+    font-size: .8rem;
+}
+
+.portfolio .product .add i{
+    color: #0078FF;
+    background-color: white;
+}
+.img-box img{
+    transition: 1s all;
+}
+.product:hover .img-box img{
+    transform: scale(1.3);
+}
+/* portfolio End */
+.bg-image{
+background-image: url('../images/overlay-bg.jpg');
+background-size:contain;
+
+}
+.blog-title p::after{
+    content: '';
+    background-color: #0078FF;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+    width: 3%;
+    height: 5px;
+
+}
+.blog-item{
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0,.1);
+    
+}
+.blog-b-s img{
+    width: 11%;
+}
+.blog-bottom{
+    background-color:#F7F7F7 ;
+}
+.blog-box{
+    background-color: #0078FF;
+}
+.start-45{
+    left: 45%;
+}
+.fs-vs{
+font-size: .7rem;
+}
+
+.contact{
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.contact .contact-box{
+    box-shadow: 1px 3px 5px 5px rgba(0, 0, 0,.1);
+    height: 600px;
+}
+.contact .send{
+    position: relative;
+}
+.contact .send::after{
+    content: '';
+    background-color: #0078FF;
+    position: absolute;
+    bottom: 0;
+    width: 17%;
+    left: 0;
+    height: 2px;
+}
+
+/* .contact input:hover{
+    box-shadow: 0px 0px 0px 3px rgba(0, 120, 255);
+} 
+.contact textarea:hover{
+    box-shadow: 0px 0px 0px 3px rgba(0, 120, 255);
+}  */
+.btn-x{
+    border-style: none;
+    background-color: #0078FF;
+    color: white;
+transition: 1s all;
+}
+.btn-x:hover{
+    box-shadow: 0px 0px 0px 5px #90a4da;
+    background-color: #3393FF;
+}
+.buddy{
+    line-height: 1.8rem;
+    color: #4E4E4E;
+}
+.bill{
+    border: 3px solid #0078FF;
+    transition: 1s all;
+
+}
+.bill:hover{
+    background-color: #0078FF;
+    color: white;
+    border: 3px solid #a7b6e0;
+
+}
+.contact-layer{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,.1);
+}
+.up{
+  right: 0;
+}
